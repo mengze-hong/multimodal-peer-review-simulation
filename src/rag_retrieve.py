@@ -4,7 +4,7 @@ import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 
-INDEX_DIR = "rag_data/rag_iclr2020_index"
+INDEX_DIR = "data/rag_iclr2020_index"
 
 def load_meta():
     metas = []
